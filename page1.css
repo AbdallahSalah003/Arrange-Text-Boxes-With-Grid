@@ -1,0 +1,80 @@
+html, body {
+    width: 1000px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Albert Sans', sans-serif;
+     }
+.grid {
+    background-color:#EEEEEE;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: "one one one one one one two two two three three three"
+    "four four four five five five five five five five five five" "six six six six six six six six six six six six"
+    "seven seven seven eight eight eight nine nine nine ten ten ten";
+    gap: 3px 3px;
+    grid-template-rows: 26% 26% 26% 22%;
+    
+}
+   
+  
+  .one
+   { background-color:#FFFFFF ;
+    grid-area: one;
+    border-bottom: 3px solid darkorange;
+    padding: 12px;
+  }
+  .two {background-color: #FFFFFF;
+    grid-area: two;
+    border-bottom: 3px solid darkorange;
+    padding: 12px;
+  }
+  .three{background-color:#000000;
+    grid-area: three;
+    color:white;
+    grid-row:1/4 ;
+    border-bottom: 3px solid darkorange;
+    padding: 12px;
+  }
+  .four{background-color: #FFFFFF;
+    grid-area: four;
+    grid-row: 2/4;
+    border-bottom: 3px solid darkorange;
+    padding: 12px;
+  }
+  .five {background-color: #000000;
+    grid-area: five;
+    color:white;
+    grid-column: span 6;
+    border-bottom: 3px solid darkorange;
+    padding: 12px;
+  }
+  .six{background-color: #FFFFFF;
+    grid-area: six;
+    grid-column: span 6;
+    border-bottom: 3px solid darkorange;
+    padding: 12px;
+  }
+  .seven {background-color: #FFFFFF;
+    grid-area: seven;
+    border-bottom: 3px solid darkorange;
+    padding: 12px;
+  }
+  .eight{background-color: #000000;
+    grid-area:eight ;
+    color:white;
+    border-bottom: 3px solid darkorange;
+    padding: 12px;
+  }
+  .nine{background-color:#FFFFFF ;
+    grid-area:nine ;
+    border-bottom: 3px solid darkorange;
+  padding: 12px;
+  }
+  .ten{background-color:#FFFFFF ;
+    grid-area:ten ;
+    border-bottom: 3px solid darkorange;
+    padding: 12px;
+  }
+  
